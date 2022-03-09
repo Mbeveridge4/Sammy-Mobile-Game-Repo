@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class helloWorld : MonoBehaviour
 {
+
+    public string message = "default"; //sets a string and its default value, but can be edited in unity
+
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("hello World");
+        Debug.Log(message); //outputs the message string into the Console Log.
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("This is an update. I imagine its gonna spam. #Sorry");
+        
     }
 }
