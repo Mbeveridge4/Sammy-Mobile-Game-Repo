@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+[RequireComponent(typeof(Rigidbody2D))] //Declares that the script cant run on an object without a rigidbody2D and gives it one if it doesnt have it
+public class playerMovement : MonoBehaviour
+{
+
+    private Rigidbody2D physicsBody = null; 
+
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        physicsBody = GetComponent<Rigidbody2D>(); //calls the rigidbody
+
+        physicsBody.velocity = new Vector2(2,0); //sets the velocity variable of the physicsBody (x,y) per second
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
