@@ -23,10 +23,11 @@ public class playerMovement : MonoBehaviour
     {
         // Ask Unity's Input manager for the current value of the horizontal Axis.
         // This will be between -1 and 1
-       float axisVal = Input.GetAxis("Horizontal");
-
-        Vector2 newVel = new Vector2(axisVal, 0);
+       float axisValX = Input.GetAxis("Horizontal");
+       float axisValY = Input.GetAxis("Vertical");
+        Vector2 newVel = new Vector2(axisValX, axisValY);
         newVel = newVel * moveSpeed;
         physicsBody.velocity = newVel;
+
     }
 }
