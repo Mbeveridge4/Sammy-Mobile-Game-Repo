@@ -21,13 +21,26 @@ public class playerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Ask Unity's Input manager for the current value of the horizontal Axis.
-        // This will be between -1 and 1
+        // Ask Unity's Input manager for the current value of the horizontal and vertical Axis.
+        // These will be between -1 and 1
        float axisValX = Input.GetAxis("Horizontal");
        float axisValY = Input.GetAxis("Vertical");
+
+        //use axes values to set up a new velocity vector
         Vector2 newVel = new Vector2(axisValX, axisValY);
+
+        //Scale our velocity based on a speed
+        // Goes from -speet to +speed
         newVel = newVel * moveSpeed;
+
+        // Tell the physics rigidbody to use the new velocity
         physicsBody.velocity = newVel;
 
     }
+
+    public void MoveUp()
+    {
+        Debug.Log("MoveUp button Pressed!!!");
+    }
+
 }
