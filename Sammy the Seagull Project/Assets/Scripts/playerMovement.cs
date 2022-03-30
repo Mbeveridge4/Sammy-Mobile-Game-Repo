@@ -46,5 +46,31 @@ public class playerMovement : MonoBehaviour
 
         physicsBody.velocity = newVel;
     }
+    public void MoveDown()
+    {
+        Debug.Log("MoveDown button Pressed!!!");
+
+        Vector2 newVel = new Vector2(0, -moveSpeed);
+
+        physicsBody.velocity = newVel;
+    }
+
+    public void MoveLeft()
+    {
+        Debug.Log("MoveDown button Pressed!!!");
+
+        Vector2 newVel = new Vector2(-moveSpeed, 0);
+
+        physicsBody.velocity = newVel;
+    }
+
+    public void MoveRight()
+    {
+        Debug.Log("MoveDown button Pressed!!!");
+
+        Vector2 newVel = new Vector2(moveSpeed, 0);
+
+        physicsBody.velocity = newVel;
+    }
 
 }
