@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Civilian
+  - Environment
+  - Collectable
   layers:
   - Default
   - TransparentFX
@@ -11,7 +15,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - test
   - 
   - 
   - 
@@ -41,12 +45,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 782174393
+    locked: 0
+  - name: Foreground
+    uniqueID: 1251001653
+    locked: 0
   - name: Objects
     uniqueID: 4249405819
     locked: 0
-  - name: Characters
+  - name: Enemies
     uniqueID: 1831502859
     locked: 0
-  - name: Environment
-    uniqueID: 782174393
+  - name: Player
+    uniqueID: 4126284341
     locked: 0

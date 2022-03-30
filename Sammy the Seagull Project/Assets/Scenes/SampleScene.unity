@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 62713907}
   m_Layer: 0
   m_Name: WardenJames
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -329,7 +329,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1831502859
-  m_SortingLayer: 2
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ebc9e3f8a6f835a41b01864ec89e3046, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -350,8 +350,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 62713903}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.35, y: -2.43, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.95, y: -3.4, z: 0}
+  m_LocalScale: {x: 0.4824, y: 0.4824, z: 0.4824}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -1426,7 +1426,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -45561477
-  m_SortingLayer: 1
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
@@ -1447,8 +1447,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1574373871}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.255, y: -1.86, z: 0}
-  m_LocalScale: {x: 3.29, y: 6.0007, z: 1}
+  m_LocalPosition: {x: -7.72, y: -3.17, z: 0}
+  m_LocalScale: {x: 1.703233, y: 3.1065624, z: 0.5177}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1535,7 +1535,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 782174393
-  m_SortingLayer: 3
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.19909115, g: 0.6037736, b: 0.04215021, a: 1}
@@ -1556,7 +1556,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857853898}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.81, y: -5.5024, z: 0}
+  m_LocalPosition: {x: 0.63, y: -5.22, z: 0}
   m_LocalScale: {x: 23.15668, y: 1.2326412, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1576,6 +1576,7 @@ GameObject:
   - component: {fileID: 2128085593}
   - component: {fileID: 2128085595}
   - component: {fileID: 2128085596}
+  - component: {fileID: 2128085597}
   m_Layer: 0
   m_Name: karenSprite
   m_TagString: Untagged
@@ -1620,8 +1621,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1831502859
-  m_SortingLayer: 2
+  m_SortingLayerID: -168682955
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 7f18cd54636f24c498ec2521c857e582, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1642,8 +1643,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2128085590}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.09, y: -2.42, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -3.2776, y: -3.25, z: 0}
+  m_LocalScale: {x: 0.525, y: 0.525, z: 0.525}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -1699,6 +1700,18 @@ CapsuleCollider2D:
   m_Size: {x: 4.067935, y: 4.175133}
   m_Direction: 0
 --- !u!114 &2128085596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128085590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a1e22a312464fa41a9669cf5cb27929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2128085597
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
