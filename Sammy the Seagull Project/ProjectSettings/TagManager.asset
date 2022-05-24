@@ -8,6 +8,7 @@ TagManager:
   - Civilian
   - Environment
   - Collectable
+  - Projectile
   layers:
   - Default
   - TransparentFX
@@ -15,9 +16,9 @@ TagManager:
   - 
   - Water
   - UI
-  - test
-  - 
-  - 
+  - Enemy
+  - Pedestrian
+  - Projectile
   - 
   - 
   - 
@@ -51,12 +52,15 @@ TagManager:
   - name: Foreground
     uniqueID: 1251001653
     locked: 0
-  - name: Objects
-    uniqueID: 4249405819
-    locked: 0
-  - name: Enemies
+  - name: Karen
     uniqueID: 1831502859
+    locked: 0
+  - name: Pedestrians
+    uniqueID: 4249405819
     locked: 0
   - name: Player
     uniqueID: 4126284341
+    locked: 0
+  - name: Warden
+    uniqueID: 2662833447
     locked: 0
