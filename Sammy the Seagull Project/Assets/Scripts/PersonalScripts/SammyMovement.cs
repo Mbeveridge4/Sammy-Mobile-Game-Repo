@@ -16,25 +16,29 @@ public class SammyMovement : MonoBehaviour
     //bool used to prevent sprite flipping on first movement
     private bool notFirstMove = true;
     private Rigidbody2D physicsBody = null;
-    
+    private Animator animator = null;
 
     void Start()
     {
         physicsBody = GetComponent<Rigidbody2D>(); //calls the rigidbody
         targetLamp = rightLamp; //sets the default lamp target to the lamp Sammy is on to make him not move strangely
         notFirstMove = false; //sets the first move bool to false to ensure the first movement doesnt flip sammys sprite
-            
+        animator = GetComponent<Animator>(); // calls the attached Animator component
     }
 
     // Update is called once per frame
     void Update()
     {
+        animator = GetComponent<Animator>(); // calls the attached Animator component
         //moves sammy towards the "targetlamp" position as set in the Fly method
         transform.position = Vector2.MoveTowards(transform.position, targetLamp, moveSpeed * Time.deltaTime);
         //updates the current position location as sammy moves
         currentPosition.x = transform.position.x;
         currentPosition.y = transform.position.y;
-        
+
+        Vector2 currentVel = physicsBody.velocity;
+        animator.SetFloat("flying", currentVel.y);
+
     }
 
     public void Fly()

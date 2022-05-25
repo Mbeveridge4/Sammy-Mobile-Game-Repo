@@ -13,8 +13,7 @@ public class EnemyCollision : MonoBehaviour
         {
             GameObject Sammy = GameObject.FindWithTag("Player");
             Hunger hunger = Sammy.GetComponent<Hunger>(); // Gets the component from the other object and stores it
-            
-
+     
             if (hunger != null)
             {
                 hunger.ChangeHappy(happy);
