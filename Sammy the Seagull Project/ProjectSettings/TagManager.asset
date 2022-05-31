@@ -9,6 +9,7 @@ TagManager:
   - Environment
   - Collectable
   - Projectile
+  - Killzone
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - Enemy
   - Pedestrian
   - Projectile
-  - 
+  - Food
   - 
   - 
   - 

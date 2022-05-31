@@ -6,18 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ClassMadeScenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/1. Scenes/MainMenu.unity
+    guid: 87e61fb8bec68de4a944b21faa179449
   - enabled: 1
-    path: Assets/Scenes/ClassMadeScenes/TileMapping.unity
-    guid: fe44e97063fa4aa48b8775e545009dc3
-  - enabled: 1
-    path: Assets/Scenes/SammyLevel1.unity
+    path: Assets/1. Scenes/SammyLevel1.unity
     guid: b3e61ad0d6770804ca899be5ac762c8c
   - enabled: 1
-    path: Assets/Scenes/happyScene.unity
+    path: Assets/1. Scenes/SammyLevel2.unity
+    guid: de4ffd30b02d2444ebcd770fd53af172
+  - enabled: 1
+    path: Assets/1. Scenes/happyScene.unity
     guid: 787bfeb81463f03458833cc7a8910b16
   - enabled: 1
-    path: Assets/Scenes/sadScene.unity
+    path: Assets/1. Scenes/sadScene.unity
     guid: 7591b2090e5c536419a4c528fcd93153
+  - enabled: 1
+    path: Assets/1. Scenes/Tutorial.unity
+    guid: ba149c87909aa40418b9ed632eb80988
+  - enabled: 1
+    path: Assets/1. Scenes/neutralScene.unity
+    guid: 9bc14871a48c4974bb6787e1572a1deb
   m_configObjects: {}
