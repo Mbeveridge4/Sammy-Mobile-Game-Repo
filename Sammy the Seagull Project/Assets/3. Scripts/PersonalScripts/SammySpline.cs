@@ -6,20 +6,35 @@ public class SammySpline : MonoBehaviour
 {
     [SerializeField] private float interpolateAmount;
     [SerializeField] private float timer;
+    // used to toggle which way sammy is flying
     [SerializeField] private int flyDirection;
     private bool notFirstMove = true;
+    // sets the points to use in the calculation - using the unity GUI
     [SerializeField] private Transform pointA;
     [SerializeField] private Transform pointB;
     [SerializeField] private Transform pointC;
     [SerializeField] private Transform pointD;
+    // sets the point that sammy should be in the spline
     [SerializeField] private Transform pointABCD;
-   
+    //the following variables are for toggling sprites
+    [SerializeField] private Sprite newSprite;
+    [SerializeField] private Sprite defaultSprite;
+    [SerializeField] private SpriteRenderer spriteRenderer;
+
     void Update()
     {
         if (timer <= 0)
         { 
         interpolateAmount = (interpolateAmount + Time.deltaTime / 2) % 1f;
+            spriteRenderer.sprite = newSprite;
         }
+        else
+        {
+            spriteRenderer.sprite = defaultSprite;
+        }
+       
+
+
         timer -= Time.deltaTime;
         if (flyDirection == 0 && timer <= 0)
         {
@@ -37,6 +52,7 @@ public class SammySpline : MonoBehaviour
                 {
                     notFirstMove = true;
                 }
+                
             }
         }
         if (flyDirection == 1 && timer <= 0)

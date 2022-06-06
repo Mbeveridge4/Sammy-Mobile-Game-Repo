@@ -165,9 +165,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePosition: {fileID: 2076991673}
   projectile: {fileID: 541654633428299648, guid: 8ac5da5fa4f5415418447caeb1a8b7fe, type: 3}
-  sounds:
-  - {fileID: 8300000, guid: b88e19b8796e8144b8cb51f2cc139f32, type: 3}
-  - {fileID: 8300000, guid: 83df603d12a05344c8e61c3f302ce5cf, type: 3}
 --- !u!114 &6715102882920610528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,6 +224,9 @@ MonoBehaviour:
   pointC: {fileID: 0}
   pointD: {fileID: 0}
   pointABCD: {fileID: 6715102882920610531}
+  newSprite: {fileID: 21300000, guid: 36db24a44c7f1da4aa0ab8a8b5fc2e8e, type: 3}
+  defaultSprite: {fileID: 21300000, guid: 9a95c8aa7b46c634b87e45e371202624, type: 3}
+  spriteRenderer: {fileID: 6715102882920610556}
 --- !u!50 &6715102882867562069
 Rigidbody2D:
   serializedVersion: 4
