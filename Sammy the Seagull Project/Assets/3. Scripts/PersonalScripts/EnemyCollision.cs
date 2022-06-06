@@ -11,16 +11,23 @@ public class EnemyCollision : MonoBehaviour
     public float angerTimer = 3f;
     public float hitTimer = 1f;
     private bool angry = false;
+    public AudioClip[] sounds;
+    private AudioSource source;
 
+   
+
+    private void Awake()
+    {
+        source = GetComponent<AudioSource>();
+    }
     // 
     // Checks if the object that hits is a trigger, and if so, is it a projectile. If it is - updates the HappyScore with the
     // happy value set in Unity GUI
-
-
     private void OnTriggerEnter2D (Collider2D collider)
     {
         if (collider.gameObject.CompareTag("Projectile"))
         {
+            PlaySound();
             Destroy(GameObject.FindWithTag("Projectile"));
 
             GameObject Sammy = GameObject.FindWithTag("Player");
@@ -54,5 +61,10 @@ public class EnemyCollision : MonoBehaviour
 
         }
        
+    }
+    void PlaySound()
+    {
+        source.clip = sounds[Random.Range(0, sounds.Length)];
+        source.Play();
     }
 }
