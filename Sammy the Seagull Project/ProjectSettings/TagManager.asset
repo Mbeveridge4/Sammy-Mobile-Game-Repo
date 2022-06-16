@@ -50,8 +50,8 @@ TagManager:
   - name: Background
     uniqueID: 782174393
     locked: 0
-  - name: Foreground
-    uniqueID: 1251001653
+  - name: Environment Rear
+    uniqueID: 4246023977
     locked: 0
   - name: Karen
     uniqueID: 1831502859
@@ -59,9 +59,12 @@ TagManager:
   - name: Pedestrians
     uniqueID: 4249405819
     locked: 0
-  - name: Player
-    uniqueID: 4126284341
-    locked: 0
   - name: Warden
     uniqueID: 2662833447
+    locked: 0
+  - name: Sammy
+    uniqueID: 4126284341
+    locked: 0
+  - name: Foreground
+    uniqueID: 1251001653
     locked: 0

@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 27498071}
   - component: {fileID: 27498072}
   m_Layer: 0
-  m_Name: Orange Sign (1)
+  m_Name: OrangeShopL-Sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,7 +157,7 @@ Transform:
   - {fileID: 997720374}
   - {fileID: 1083661155}
   m_Father: {fileID: 43088107}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &27498072
 SpriteRenderer:
@@ -197,8 +197,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.8196079, g: 0.3647059, b: 0.14509805, a: 1}
@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 33792623}
   - component: {fileID: 33792622}
   m_Layer: 0
-  m_Name: beach-cloud-01
+  m_Name: LargeCloud
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -435,12 +435,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 120459264}
-  - {fileID: 1795883791}
   - {fileID: 1165459509}
   - {fileID: 1673253251}
   - {fileID: 1909489840}
   - {fileID: 1487884555}
-  - {fileID: 396575057}
   - {fileID: 807354999}
   - {fileID: 27498071}
   m_Father: {fileID: 0}
@@ -500,7 +498,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 807354999}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &53104679
 SpriteRenderer:
@@ -540,8 +538,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 4
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.1981132, g: 0.1971787, b: 0.1971787, a: 1}
@@ -565,7 +563,7 @@ GameObject:
   - component: {fileID: 57767184}
   - component: {fileID: 57767185}
   m_Layer: 0
-  m_Name: WindowFrame (4)
+  m_Name: DoorGlass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -583,8 +581,8 @@ Transform:
   m_LocalScale: {x: 0.17234772, y: 2.2577686, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1673253251}
-  m_RootOrder: 5
+  m_Father: {fileID: 242169777}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &57767185
 SpriteRenderer:
@@ -624,9 +622,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
-  m_SortingOrder: 4
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
+  m_SortingOrder: 5
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.1981132, g: 0.1971787, b: 0.1971787, a: 1}
   m_FlipX: 0
@@ -733,7 +731,7 @@ GameObject:
   - component: {fileID: 81222433}
   - component: {fileID: 81222434}
   m_Layer: 0
-  m_Name: Door
+  m_Name: DoorFrameOuter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -747,11 +745,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 81222432}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.33640003, y: -2.3979661, z: 0}
-  m_LocalScale: {x: 0.3130311, y: 3.139602, z: 1.17}
+  m_LocalPosition: {x: 0.33640003, y: -2.397966, z: 0}
+  m_LocalScale: {x: 0.31303108, y: 3.139602, z: 1.17}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1673253251}
+  m_Father: {fileID: 242169777}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &81222434
@@ -792,8 +790,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.06674973, g: 0.39310843, b: 0.5660378, a: 1}
@@ -806,6 +804,42 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &101213368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 101213369}
+  m_Layer: 0
+  m_Name: Door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &101213369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101213368}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 798057651}
+  - {fileID: 673932993}
+  - {fileID: 216942671}
+  - {fileID: 1110287996}
+  - {fileID: 753972822}
+  m_Father: {fileID: 807354999}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &108123866
 GameObject:
   m_ObjectHideFlags: 0
@@ -961,7 +995,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1251001653
-  m_SortingLayer: 2
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1020,7 +1054,7 @@ GameObject:
   - component: {fileID: 166902373}
   - component: {fileID: 166902374}
   m_Layer: 0
-  m_Name: Door (1)
+  m_Name: DoorFrameInner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1035,10 +1069,10 @@ Transform:
   m_GameObject: {fileID: 166902372}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.3401488, y: -2.278818, z: 0}
-  m_LocalScale: {x: 0.20181742, y: 2.492819, z: 0.754299}
+  m_LocalScale: {x: 0.20181741, y: 2.492819, z: 0.754299}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1673253251}
+  m_Father: {fileID: 242169777}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &166902374
@@ -1079,9 +1113,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
-  m_SortingOrder: 3
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
+  m_SortingOrder: 4
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.06674973, g: 0.39310843, b: 0.5660378, a: 1}
   m_FlipX: 0
@@ -1189,7 +1223,7 @@ GameObject:
   - component: {fileID: 216942671}
   - component: {fileID: 216942672}
   m_Layer: 0
-  m_Name: Door (1)
+  m_Name: DoorFrameInner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1203,11 +1237,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 216942670}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3401488, y: -2.278818, z: 0}
-  m_LocalScale: {x: 0.20181742, y: 2.492819, z: 0.754299}
+  m_LocalPosition: {x: 0.3401487, y: -2.278818, z: 0}
+  m_LocalScale: {x: 0.20181741, y: 2.492819, z: 0.754299}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 807354999}
+  m_Father: {fileID: 101213369}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &216942672
@@ -1248,8 +1282,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 4
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.06674973, g: 0.39310843, b: 0.5660378, a: 1}
@@ -1262,6 +1296,42 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &242169776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 242169777}
+  m_Layer: 0
+  m_Name: Door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &242169777
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242169776}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 81222433}
+  - {fileID: 1663626412}
+  - {fileID: 166902373}
+  - {fileID: 846827643}
+  - {fileID: 57767184}
+  m_Father: {fileID: 1673253251}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &243547908
 GameObject:
   m_ObjectHideFlags: 0
@@ -1317,9 +1387,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -45561477
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
+  m_SortingOrder: 11
   m_Sprite: {fileID: 21300000, guid: e7123aeee7700894e8394d19cf1c703f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1455,7 +1525,7 @@ GameObject:
   - component: {fileID: 360430881}
   - component: {fileID: 360430882}
   m_Layer: 0
-  m_Name: DoorFrame
+  m_Name: DoorGlass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1514,8 +1584,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.1981132, g: 0.1971787, b: 0.1971787, a: 1}
@@ -1539,7 +1609,7 @@ GameObject:
   - component: {fileID: 372720095}
   - component: {fileID: 372720096}
   m_Layer: 0
-  m_Name: Roof
+  m_Name: Building-Roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1598,7 +1668,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1251001653
+  m_SortingLayerID: -48943319
   m_SortingLayer: 2
   m_SortingOrder: 4
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
@@ -1691,12 +1761,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 396575054}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.794285, y: 10.296565, z: 2.1336365}
+  m_LocalPosition: {x: -7.1, y: 12.198772, z: -245.40598}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 43088107}
-  m_RootOrder: 6
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &396575058
 BoxCollider2D:
@@ -1808,7 +1878,7 @@ GameObject:
   - component: {fileID: 437070931}
   - component: {fileID: 437070932}
   m_Layer: 0
-  m_Name: Window (3)
+  m_Name: WFrame-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1867,8 +1937,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0, g: 0.4431373, b: 0.011764707, a: 1}
@@ -2020,7 +2090,7 @@ GameObject:
   - component: {fileID: 553809157}
   - component: {fileID: 553809158}
   m_Layer: 0
-  m_Name: Capsule (2)
+  m_Name: SignFrame-R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2079,8 +2149,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2164,7 +2234,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1251001653
-  m_SortingLayer: 2
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2286,11 +2356,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 673932992}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.33939904, y: -2.457454, z: 0}
+  m_LocalPosition: {x: 0.33939895, y: -2.457454, z: 0}
   m_LocalScale: {x: 0.26754895, y: 3.0091543, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 807354999}
+  m_Father: {fileID: 101213369}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &673932994
@@ -2331,8 +2401,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.016153438, g: 0.20905814, b: 0.31132078, a: 1}
@@ -2428,9 +2498,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
-  m_SortingOrder: 7
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
+  m_SortingOrder: 11
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.1792453, g: 0.16994482, b: 0.16994482, a: 1}
   m_FlipX: 0
@@ -2450,14 +2520,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706056595}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.6835, y: -5.9783072, z: 247.53961}
+  m_LocalPosition: {x: 1.3777848, y: -4.0761, z: 0}
   m_LocalScale: {x: 35.943047, y: 1.7300683, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2077430220}
   - {fileID: 1994615415}
-  m_Father: {fileID: 1795883791}
-  m_RootOrder: 3
+  - {fileID: 1037417691}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &706056599
 MonoBehaviour:
@@ -2489,7 +2560,7 @@ GameObject:
   - component: {fileID: 736510397}
   - component: {fileID: 736510398}
   m_Layer: 0
-  m_Name: WindowFrame (3)
+  m_Name: WGlass-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2548,8 +2619,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.1981132, g: 0.1971787, b: 0.1971787, a: 1}
@@ -2573,7 +2644,7 @@ GameObject:
   - component: {fileID: 753972822}
   - component: {fileID: 753972823}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: DKnob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2586,13 +2657,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753972821}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.222, y: -2.6892, z: 0}
-  m_LocalScale: {x: 0.025949119, y: 0.15185529, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.22199999, y: -2.6891997, z: 0}
+  m_LocalScale: {x: 0.15711161, y: 0.9194234, z: 6.054603}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 807354999}
-  m_RootOrder: 6
+  m_Father: {fileID: 101213369}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &753972823
 SpriteRenderer:
@@ -2632,8 +2703,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 4
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.6226415, g: 0.3059198, b: 0.11454255, a: 1}
@@ -2657,7 +2728,7 @@ GameObject:
   - component: {fileID: 798057651}
   - component: {fileID: 798057652}
   m_Layer: 0
-  m_Name: Door
+  m_Name: DoorFrameOuter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2671,11 +2742,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 798057650}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.33640003, y: -2.3979661, z: 0}
-  m_LocalScale: {x: 0.3130311, y: 3.139602, z: 1.17}
+  m_LocalPosition: {x: 0.33640012, y: -2.397966, z: 0}
+  m_LocalScale: {x: 0.31303108, y: 3.139602, z: 1.17}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 807354999}
+  m_Father: {fileID: 101213369}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &798057652
@@ -2716,8 +2787,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.06674973, g: 0.39310843, b: 0.5660378, a: 1}
@@ -2741,7 +2812,7 @@ GameObject:
   - component: {fileID: 807354999}
   - component: {fileID: 807355000}
   m_Layer: 0
-  m_Name: BlueSign (1)
+  m_Name: BlueShopR-Sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2759,15 +2830,11 @@ Transform:
   m_LocalScale: {x: 4.305642, y: 0.7133133, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 798057651}
-  - {fileID: 673932993}
-  - {fileID: 216942671}
   - {fileID: 2134814410}
   - {fileID: 53104678}
-  - {fileID: 1110287996}
-  - {fileID: 753972822}
+  - {fileID: 101213369}
   m_Father: {fileID: 43088107}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &807355000
 SpriteRenderer:
@@ -2807,8 +2874,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.06666667, g: 0.3921569, b: 0.5647059, a: 1}
@@ -2854,7 +2921,7 @@ GameObject:
   - component: {fileID: 846827643}
   - component: {fileID: 846827644}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: DoorKnob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2867,13 +2934,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846827642}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.222, y: -2.6892, z: 0}
-  m_LocalScale: {x: 0.025949119, y: 0.15185529, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.22199999, y: -2.6891997, z: 0}
+  m_LocalScale: {x: 0.025949117, y: 0.15185528, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1673253251}
-  m_RootOrder: 6
+  m_Father: {fileID: 242169777}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &846827644
 SpriteRenderer:
@@ -2913,8 +2980,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 4
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.6226415, g: 0.3059198, b: 0.11454255, a: 1}
@@ -2938,7 +3005,7 @@ GameObject:
   - component: {fileID: 928767781}
   - component: {fileID: 928767782}
   m_Layer: 0
-  m_Name: WindowFrame (2)
+  m_Name: WGlass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2997,8 +3064,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.1981132, g: 0.1971787, b: 0.1971787, a: 1}
@@ -3044,7 +3111,7 @@ Transform:
   - {fileID: 1803302936}
   - {fileID: 1825435061}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &994646080
 GameObject:
@@ -3116,9 +3183,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1251001653
+  m_SortingLayerID: -48943319
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 11
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 1, g: 0.96274924, b: 0, a: 1}
   m_FlipX: 0
@@ -3141,7 +3208,7 @@ GameObject:
   - component: {fileID: 997720374}
   - component: {fileID: 997720375}
   m_Layer: 0
-  m_Name: Window (2)
+  m_Name: WFrame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3200,9 +3267,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
+  m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.8196079, g: 0.3647059, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -3333,8 +3400,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1251001653
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayer: 7
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 6ed2d3e25fd770446841eebdad4acbb5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3353,13 +3420,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037417688}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.99, y: -4.85, z: 0}
-  m_LocalScale: {x: 10.359892, y: 10.359892, z: 10.359892}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.31627217, y: -0.44732335, z: 0}
+  m_LocalScale: {x: 0.28823078, y: 5.98814, z: 10.359892}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 706056598}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1071805725 stripped
 SpriteRenderer:
@@ -3377,7 +3444,7 @@ GameObject:
   - component: {fileID: 1083661155}
   - component: {fileID: 1083661156}
   m_Layer: 0
-  m_Name: WindowFrame (2)
+  m_Name: WGlass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3391,7 +3458,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1083661154}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.16419557, y: -2.0845003, z: 0}
+  m_LocalPosition: {x: 0.169, y: -2.0845003, z: 0}
   m_LocalScale: {x: 0.5644267, y: 2.2577686, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3436,9 +3503,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
-  m_SortingOrder: 2
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.1981132, g: 0.1971787, b: 0.1971787, a: 1}
   m_FlipX: 0
@@ -3461,7 +3528,7 @@ GameObject:
   - component: {fileID: 1090199688}
   - component: {fileID: 1090199689}
   m_Layer: 0
-  m_Name: Window (2)
+  m_Name: WFrame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3520,8 +3587,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.8196079, g: 0.3647059, b: 0.14509805, a: 1}
@@ -3604,9 +3671,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1251001653
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: 782174393
+  m_SortingLayer: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.44599503, g: 0.4481374, b: 0.4528302, a: 1}
   m_FlipX: 0
@@ -3689,7 +3756,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1251001653
-  m_SortingLayer: 2
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3713,7 +3780,7 @@ GameObject:
   - component: {fileID: 1110287996}
   - component: {fileID: 1110287997}
   m_Layer: 0
-  m_Name: WindowFrame (4)
+  m_Name: DGlass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3727,12 +3794,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1110287995}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3405238, y: -2.2876117, z: 0}
+  m_LocalPosition: {x: 0.3405239, y: -2.2876117, z: 0}
   m_LocalScale: {x: 0.17234772, y: 2.2577686, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 807354999}
-  m_RootOrder: 5
+  m_Father: {fileID: 101213369}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1110287997
 SpriteRenderer:
@@ -3772,8 +3839,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 4
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.1981132, g: 0.1971787, b: 0.1971787, a: 1}
@@ -3797,7 +3864,7 @@ GameObject:
   - component: {fileID: 1127605884}
   - component: {fileID: 1127605885}
   m_Layer: 0
-  m_Name: Door
+  m_Name: DoorFrame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3856,8 +3923,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.8207547, g: 0.36649367, b: 0.14324492, a: 1}
@@ -3881,7 +3948,7 @@ GameObject:
   - component: {fileID: 1130257227}
   - component: {fileID: 1130257228}
   m_Layer: 0
-  m_Name: Window
+  m_Name: WFrame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3900,7 +3967,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1673253251}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1130257228
 SpriteRenderer:
@@ -3940,8 +4007,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.06666667, g: 0.3921569, b: 0.5647059, a: 1}
@@ -3965,7 +4032,7 @@ GameObject:
   - component: {fileID: 1160507534}
   - component: {fileID: 1160507533}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: SignFrame-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4009,8 +4076,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4049,7 +4116,7 @@ GameObject:
   - component: {fileID: 1165459509}
   - component: {fileID: 1165459510}
   m_Layer: 0
-  m_Name: Walls
+  m_Name: Building-Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4069,7 +4136,7 @@ Transform:
   m_Children:
   - {fileID: 372720095}
   m_Father: {fileID: 43088107}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1165459510
 SpriteRenderer:
@@ -4109,8 +4176,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.8490566, g: 0.8200288, b: 0.748932, a: 1}
@@ -4134,7 +4201,7 @@ GameObject:
   - component: {fileID: 1266429850}
   - component: {fileID: 1266429851}
   m_Layer: 0
-  m_Name: WindowFrame (1)
+  m_Name: WGlass-R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4193,8 +4260,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.1981132, g: 0.1971787, b: 0.1971787, a: 1}
@@ -4218,7 +4285,7 @@ GameObject:
   - component: {fileID: 1266454475}
   - component: {fileID: 1266454476}
   m_Layer: 0
-  m_Name: Door
+  m_Name: DoorFrame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4277,8 +4344,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.8207547, g: 0.36649367, b: 0.14324492, a: 1}
@@ -4684,7 +4751,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1251001653
-  m_SortingLayer: 2
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4708,7 +4775,7 @@ GameObject:
   - component: {fileID: 1472719024}
   - component: {fileID: 1472719023}
   m_Layer: 0
-  m_Name: beach-cloud-03
+  m_Name: SmallCloud
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4814,7 +4881,7 @@ Transform:
   - {fileID: 1342832289}
   - {fileID: 108123867}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1487884553
 GameObject:
@@ -4827,7 +4894,7 @@ GameObject:
   - component: {fileID: 1487884555}
   - component: {fileID: 1487884554}
   m_Layer: 0
-  m_Name: Orange Sign
+  m_Name: OrangeShop-Sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4871,8 +4938,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.8196079, g: 0.3647059, b: 0.14509805, a: 1}
@@ -4902,7 +4969,7 @@ Transform:
   - {fileID: 1090199688}
   - {fileID: 928767781}
   m_Father: {fileID: 43088107}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1507089935
 GameObject:
@@ -4986,9 +5053,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -45561477
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
+  m_SortingOrder: 11
   m_Sprite: {fileID: 21300000, guid: e7123aeee7700894e8394d19cf1c703f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5037,7 +5104,7 @@ GameObject:
   - component: {fileID: 1582947271}
   - component: {fileID: 1582947272}
   m_Layer: 0
-  m_Name: Window (1)
+  m_Name: WFrame-R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5096,8 +5163,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0, g: 0.4431373, b: 0.011764707, a: 1}
@@ -5181,7 +5248,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1251001653
-  m_SortingLayer: 2
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5205,7 +5272,7 @@ GameObject:
   - component: {fileID: 1618853260}
   - component: {fileID: 1618853261}
   m_Layer: 0
-  m_Name: DoorFrame
+  m_Name: DoorGlass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5264,8 +5331,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.1981132, g: 0.1971787, b: 0.1971787, a: 1}
@@ -5289,7 +5356,7 @@ GameObject:
   - component: {fileID: 1663626412}
   - component: {fileID: 1663626413}
   m_Layer: 0
-  m_Name: DoorFrame
+  m_Name: DoorPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5307,7 +5374,7 @@ Transform:
   m_LocalScale: {x: 0.26754895, y: 3.0091543, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1673253251}
+  m_Father: {fileID: 242169777}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1663626413
@@ -5348,8 +5415,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.016153438, g: 0.20905814, b: 0.31132078, a: 1}
@@ -5373,7 +5440,7 @@ GameObject:
   - component: {fileID: 1673253251}
   - component: {fileID: 1673253250}
   m_Layer: 0
-  m_Name: BlueSign
+  m_Name: BlueShop-Sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5417,8 +5484,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.06666667, g: 0.3921569, b: 0.5647059, a: 1}
@@ -5443,15 +5510,11 @@ Transform:
   m_LocalScale: {x: 4.305642, y: 0.7133133, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 81222433}
-  - {fileID: 1663626412}
-  - {fileID: 166902373}
   - {fileID: 1130257227}
   - {fileID: 1844281050}
-  - {fileID: 57767184}
-  - {fileID: 846827643}
+  - {fileID: 242169777}
   m_Father: {fileID: 43088107}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1731283005
 GameObject:
@@ -5464,7 +5527,7 @@ GameObject:
   - component: {fileID: 1731283006}
   - component: {fileID: 1731283007}
   m_Layer: 0
-  m_Name: DoorFrame
+  m_Name: DoorGlass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5523,9 +5586,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
-  m_SortingOrder: 2
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
+  m_SortingOrder: 4
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.1981132, g: 0.1971787, b: 0.1971787, a: 1}
   m_FlipX: 0
@@ -5561,16 +5624,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795883790}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.3057152, y: 1.9022075, z: -247.53961}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 178279475}
   - {fileID: 243547910}
   - {fileID: 1507089938}
-  - {fileID: 706056598}
-  m_Father: {fileID: 43088107}
-  m_RootOrder: 1
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1803302934
 GameObject:
@@ -5667,7 +5729,7 @@ GameObject:
   - component: {fileID: 1816723016}
   - component: {fileID: 1816723015}
   m_Layer: 0
-  m_Name: beach-cloud-01 (1)
+  m_Name: SmallCloud
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5835,7 +5897,7 @@ GameObject:
   - component: {fileID: 1844281050}
   - component: {fileID: 1844281051}
   m_Layer: 0
-  m_Name: WindowFrame
+  m_Name: WGlass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5854,7 +5916,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1673253251}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1844281051
 SpriteRenderer:
@@ -5894,8 +5956,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 4
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.1981132, g: 0.1971787, b: 0.1971787, a: 1}
@@ -5919,7 +5981,7 @@ GameObject:
   - component: {fileID: 1868047285}
   - component: {fileID: 1868047284}
   m_Layer: 0
-  m_Name: Capsule (1)
+  m_Name: SignPanel-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5963,8 +6025,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 4
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.6603774, g: 0.08410467, b: 0.08410467, a: 1}
@@ -6003,7 +6065,7 @@ GameObject:
   - component: {fileID: 1884555135}
   - component: {fileID: 1884555136}
   m_Layer: 0
-  m_Name: Capsule (3)
+  m_Name: SignPanel-R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6062,8 +6124,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 4
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.6603774, g: 0.08410467, b: 0.08410467, a: 1}
@@ -6154,7 +6216,7 @@ GameObject:
   - component: {fileID: 1909489840}
   - component: {fileID: 1909489839}
   m_Layer: 0
-  m_Name: GreenSign
+  m_Name: GreenShop-Sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6198,8 +6260,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0, g: 0.4431373, b: 0.011764707, a: 1}
@@ -6235,7 +6297,7 @@ Transform:
   - {fileID: 553809157}
   - {fileID: 1884555135}
   m_Father: {fileID: 43088107}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1994615414
 GameObject:
@@ -6313,7 +6375,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1251001653
-  m_SortingLayer: 2
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6481,9 +6543,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1251001653
+  m_SortingLayerID: -48943319
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 11
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 1, g: 0.96274924, b: 0, a: 1}
   m_FlipX: 0
@@ -6506,7 +6568,7 @@ GameObject:
   - component: {fileID: 2128529038}
   - component: {fileID: 2128529039}
   m_Layer: 0
-  m_Name: Door
+  m_Name: DoorFrame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6565,8 +6627,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0, g: 0.4433962, b: 0.013441204, a: 1}
@@ -6609,7 +6671,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 807354999}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2134814411
 SpriteRenderer:
@@ -6649,8 +6711,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 782174393
-  m_SortingLayer: 1
+  m_SortingLayerID: -48943319
+  m_SortingLayer: 2
   m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: 2a241eeba4b7e0846927fa7d12fa28b1, type: 3}
   m_Color: {r: 0.06666667, g: 0.3921569, b: 0.5647059, a: 1}
@@ -6670,6 +6732,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 719052421579832223, guid: f9e017a73599d7048aa4dcf31c909241, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 287
+      objectReference: {fileID: 0}
+    - target: {fileID: 2506893500229490910, guid: f9e017a73599d7048aa4dcf31c909241, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2653929055370174519, guid: f9e017a73599d7048aa4dcf31c909241, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3727898315002817335, guid: f9e017a73599d7048aa4dcf31c909241, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -6769,6 +6843,10 @@ PrefabInstance:
     - target: {fileID: 3727898315590627883, guid: f9e017a73599d7048aa4dcf31c909241, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3766031066371433311, guid: f9e017a73599d7048aa4dcf31c909241, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -178
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9e017a73599d7048aa4dcf31c909241, type: 3}
